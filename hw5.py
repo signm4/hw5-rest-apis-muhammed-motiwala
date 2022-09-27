@@ -2,6 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 
+'''find the top 10 weekly movies'''
 def get_top_10_weekly_trending_movies ():
 
     #using dot env file and pulling key from .env file
